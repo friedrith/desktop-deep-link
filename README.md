@@ -1,6 +1,6 @@
 # desktop-deep-link
 
-A library to transform URIs to deep link for a lot of desktop apps. It is useful to open desktop app directly from a browser link or another app.
+A typescript library to transform URIs to deep link for a lot of desktop apps. It is useful to open desktop app directly from a browser link or another app.
 
 ## Installation
 
@@ -24,5 +24,8 @@ Works with:
 
 - Adobe XD
 - Microsoft Teams
+- Notion
+- Slack
 - TodoIst
+- VS Code
 - Zoom
