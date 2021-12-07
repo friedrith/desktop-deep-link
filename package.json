@@ -24,7 +24,8 @@
   "scripts": {
     "test": "jest",
     "format": "prettier --check .",
-    "lint": "eslint src/**/*"
+    "lint": "eslint src/**/*",
+    "release": "npx standard-version"
   },
   "prettier": {
     "trailingComma": "es5",

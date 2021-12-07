@@ -1,6 +1,14 @@
 # desktop-deep-link
 
-A library to transform URIs to deep link for a lot of desktop apps.
+A library to transform URIs to deep link for a lot of desktop apps. It is useful to open desktop app directly from a browser link or another app.
+
+## Installation
+
+```bash
+npm install desktop-deep-link
+
+yarn install desktop-deep-link
+```
 
 ## Getting started
 
@@ -11,3 +19,10 @@ const deepLink = createDeepLink('https://todoist.com/app/project/foo')
 
 // deepLink = todoist://project?id=foo
 ```
+
+Works with:
+
+- Adobe XD
+- Microsoft Teams
+- TodoIst
+- Zoom
