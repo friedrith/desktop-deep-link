@@ -1,0 +1,52 @@
+{
+  "name": "desktop-deep-link",
+  "version": "1.0.0",
+  "description": "A library to transform urls to deep link for a lot of desktop apps.",
+  "main": "src/index.ts",
+  "repository": "git@github.com:friedrith/desktop-deep-link.git",
+  "author": "Thibault Friedrich <thibault.friedrich@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "babel-jest": "^27.4.2",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.3.0",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --check .",
+    "lint": "eslint src/**/*"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint",
+      "jest"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "prettier"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
+}
