@@ -5,6 +5,6 @@
 const regex = /https:\/\/todoist\.com\/app\/project\/([a-zA-Z0-9]+)/
 
 export default {
-  match: (uri: string) => uri.match(regex),
+  match: (uri: string) => Boolean(uri.match(regex)),
   transform: (uri: string) => `todoist://project?id=${uri.match(regex)?.[1]}`,
 }

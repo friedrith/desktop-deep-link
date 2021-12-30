@@ -5,7 +5,7 @@
 const regex = /https:\/\/us02web\.zoom\.us\/j\/([a-zA-Z0-9]+)/
 
 export default {
-  match: (uri: string) => uri.match(regex),
+  match: (uri: string) => Boolean(uri.match(regex)),
   transform: (uri: string) => {
     const room = uri.match(regex)?.[1]
 
