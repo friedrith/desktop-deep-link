@@ -26,8 +26,7 @@
     "format": "prettier --check .",
     "lint": "eslint src/**/*",
     "release": "npx standard-version",
-    "build": "tsc -p tsconfig.json",
-    "postinstall": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json"
   },
   "prettier": {
     "trailingComma": "es5",
