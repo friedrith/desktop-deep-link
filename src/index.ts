@@ -6,14 +6,8 @@ const defaultModule = {
   transform: (uri: string): string => uri,
 }
 
-const normalize = (uri: string): string => {
-  const s = uri.startsWith('http') ? uri : `https://${uri}`
-  return s.replace('http://', 'https://')
-}
-
 export default (uri: string) => {
-  const cleanURI: string = normalize(uri)
   return [...modules, defaultModule]
-    .find((m: Module) => m.match(cleanURI))
-    ?.transform(cleanURI)
+    .find((m: Module) => m.match(uri))
+    ?.transform(uri)
 }
