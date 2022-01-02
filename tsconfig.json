@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2021",
+    "target": "es6",
     "module": "es2015",
-    "lib": ["dom", "esnext"],
+    "lib": ["es6", "dom", "esnext"],
     "declaration": true,
     "declarationMap": true,
     "jsx": "react-jsx",
@@ -21,8 +21,14 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "allowJs": true,
-    "outDir": "release/app/dist",
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "outDir": "./dist/tsc/",
   },
-  "exclude": ["test", "release/build", "release/app/dist", ".erb/dll"]
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
 }

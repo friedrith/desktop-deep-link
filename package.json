@@ -2,11 +2,10 @@
   "name": "desktop-deep-link",
   "version": "1.1.4",
   "description": "A library to transform urls to deep link for a lot of desktop apps.",
-  "main": "src/index.ts",
+  "main": "dist/tsc/index.js",
   "repository": "git@github.com:friedrith/desktop-deep-link.git",
   "author": "Thibault Friedrich <thibault.friedrich@gmail.com>",
   "license": "MIT",
-  "type": "commonjs",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
@@ -26,7 +25,9 @@
     "test": "jest",
     "format": "prettier --check .",
     "lint": "eslint src/**/*",
-    "release": "npx standard-version"
+    "release": "npx standard-version",
+    "build": "tsc -p tsconfig.json",
+    "postinstall": "tsc -p tsconfig.json"
   },
   "prettier": {
     "trailingComma": "es5",
