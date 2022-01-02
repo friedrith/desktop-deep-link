@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "es2015",
-    "lib": ["es6", "dom", "esnext"],
+    "module": "commonjs",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
     "declaration": true,
     "declarationMap": true,
     "jsx": "react-jsx",
@@ -23,6 +30,7 @@
     "allowJs": true,
     "noImplicitAny": false,
     "outDir": "./dist/tsc/",
+    "importHelpers": true,
   },
   "include": [
     "src/**/*.ts"
