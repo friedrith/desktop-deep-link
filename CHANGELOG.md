@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.7](https://github.com/friedrith/desktop-deep-link/compare/v1.1.6...v1.1.7) (2022-01-02)
+
+
+### Bug Fixes
+
+* try type ([3775653](https://github.com/friedrith/desktop-deep-link/commit/37756537db2d36971d46ebdc74a791bea4ab5ae9))
+
 ### [1.1.6](https://github.com/friedrith/desktop-deep-link/compare/v1.1.5...v1.1.6) (2022-01-02)
 
 ### [1.1.5](https://github.com/friedrith/desktop-deep-link/compare/v1.1.4...v1.1.5) (2022-01-02)
