@@ -29,3 +29,7 @@ Works with:
 - TodoIst
 - VS Code
 - Zoom
+
+## Useful links
+
+- https://github.com/metachris/typescript-boilerplate
