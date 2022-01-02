@@ -6,6 +6,7 @@
   "repository": "git@github.com:friedrith/desktop-deep-link.git",
   "author": "Thibault Friedrich <thibault.friedrich@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
