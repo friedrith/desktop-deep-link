@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/friedrith/desktop-deep-link/compare/v1.1.3...v1.1.4) (2022-01-02)
+
+
+### Bug Fixes
+
+* tsconfig module ([526ce97](https://github.com/friedrith/desktop-deep-link/commit/526ce975502bb4361dcc821d16c6eccd3ff71d12))
+
 ### [1.1.3](https://github.com/friedrith/desktop-deep-link/compare/v1.1.2...v1.1.3) (2022-01-02)
 
 
