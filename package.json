@@ -1,6 +1,6 @@
 {
   "name": "desktop-deep-link",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A library to transform urls to deep link for a lot of desktop apps.",
   "main": "src/index.ts",
   "repository": "git@github.com:friedrith/desktop-deep-link.git",
