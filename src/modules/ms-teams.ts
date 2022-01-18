@@ -4,6 +4,7 @@
  */
 
 export default {
+  id: 'ms-teams',
   match: (uri: string) => uri.startsWith('https://teams.microsoft.com'),
   transform: (uri: string) => {
     const { searchParams } = new URL(uri)

@@ -5,6 +5,10 @@ const deepLink =
   'zoommtg://us04web.zoom.us/join?action=join&confno=888888888&pwd=WHNxdUWHNxdUWHNxdUWHNxdU'
 
 describe('Zoom', () => {
+  it('should return id', () => {
+    expect(zoom.id).toEqual('zoom')
+  })
+
   it('should not match', () => {
     expect(zoom.match('foo')).toBeFalsy()
   })

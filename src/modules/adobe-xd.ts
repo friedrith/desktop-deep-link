@@ -7,6 +7,7 @@
 const regex = /https:\/\/assets\.adobe\.com\/id\/urn:aaid:sc:EU:([-a-zA-Z0-9]+)/
 
 export default {
+  id: 'adobe-xd',
   match: (uri: string) => Boolean(uri.match(regex)),
   transform: (uri: string) =>
     `adbxd://app?action=openCloudDoc&cloudURL=https%3A%2F%2Fcc-api-storage.adobe.io%2Fid%2Furn%3Aaaid%3Asc%3AEU%%3A${

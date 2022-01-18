@@ -3,6 +3,7 @@
  */
 
 export default {
+  id: 'vscode',
   match: (uri: string) =>
     uri.startsWith('file:///') && uri.endsWith('.code-workspace'),
   transform: (uri: string) => uri.replace('file://', 'vscode://file'),

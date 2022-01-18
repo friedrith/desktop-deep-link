@@ -1,20 +1,24 @@
-import notion from '../notion'
+import adobeXd from '../adobe-xd'
 
 const uri =
-  'https://www.notion.so/collegeinfogeek/Recurring-Task-Dates-01101ca280f74efb937488d468ffbaac'
+  'https://assets.adobe.com/id/urn:aaid:sc:EU:485dd3be-1c52-4147-1111-23dae6b7fe7e?view=difile'
 const deepLink =
-  'notion://www.notion.so/collegeinfogeek/Recurring-Task-Dates-01101ca280f74efb937488d468ffbaac'
+  'adbxd://app?action=openCloudDoc&cloudURL=https%3A%2F%2Fcc-api-storage.adobe.io%2Fid%2Furn%3Aaaid%3Asc%3AEU%%3A485dd3be-1c52-4147-1111-23dae6b7fe7e'
 
-describe('Notion', () => {
+describe('Adobe XD', () => {
+  it('should return id', () => {
+    expect(adobeXd.id).toEqual('adobe-xd')
+  })
+
   it('should not match', () => {
-    expect(notion.match('foo')).toBeFalsy()
+    expect(adobeXd.match('foo')).toBeFalsy()
   })
 
   it('should match', () => {
-    expect(notion.match(uri)).toBeTruthy()
+    expect(adobeXd.match(uri)).toBeTruthy()
   })
 
   it('should return deep link', () => {
-    expect(notion.transform(uri)).toEqual(deepLink)
+    expect(adobeXd.transform(uri)).toEqual(deepLink)
   })
 })

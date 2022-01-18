@@ -4,6 +4,10 @@ const uri = 'https://todoist.com/app/project/019'
 const deepLink = 'todoist://project?id=019'
 
 describe('Todoist', () => {
+  it('should return id', () => {
+    expect(todoist.id).toEqual('todoist')
+  })
+
   it('should not match', () => {
     expect(todoist.match('foo')).toBeFalsy()
   })

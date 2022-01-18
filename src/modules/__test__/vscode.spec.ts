@@ -4,6 +4,10 @@ const uri = 'file:///Users/foo/bar.code-workspace'
 const deepLink = 'vscode://file/Users/foo/bar.code-workspace'
 
 describe('VS Code', () => {
+  it('should return id', () => {
+    expect(vscode.id).toEqual('vscode')
+  })
+
   it('should not match', () => {
     expect(vscode.match('foo')).toBeFalsy()
   })

@@ -3,6 +3,7 @@
  */
 
 export default {
+  id: 'notion',
   match: (uri: string) => uri.startsWith('https://www.notion.so'),
   transform: (uri: string) => uri.replace('https://', 'notion://'),
 }

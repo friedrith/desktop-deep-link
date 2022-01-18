@@ -7,6 +7,7 @@ const regex =
   /https:\/\/app\.slack\.com\/client\/([a-zA-Z0-9]+)\/?([a-zA-Z0-9]*)/
 
 export default {
+  id: 'slack',
   match: (uri: string) => Boolean(uri.match(regex)),
   transform: (uri: string) => {
     const match = uri.match(regex)

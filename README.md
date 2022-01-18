@@ -23,6 +23,7 @@ const deepLink = createDeepLink('https://todoist.com/app/project/foo')
 Works with:
 
 - Adobe XD
+- Discord
 - Microsoft Teams
 - Notion
 - Slack

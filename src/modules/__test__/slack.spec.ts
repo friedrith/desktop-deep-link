@@ -4,6 +4,10 @@ const uri = 'https://app.slack.com/client/T06AGC46Q/C07345NC8'
 const deepLink = 'slack://channel?team=T06AGC46Q&id=C07345NC8'
 
 describe('Slack', () => {
+  it('should return id', () => {
+    expect(slack.id).toEqual('slack')
+  })
+
   it('should not match', () => {
     expect(slack.match('foo')).toBeFalsy()
   })
