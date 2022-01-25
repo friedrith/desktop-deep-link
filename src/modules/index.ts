@@ -6,9 +6,11 @@ import todoist from './todoist'
 import vscode from './vscode'
 import zoom from './zoom'
 import figma from './figma'
+import asana from './asana'
 
 export const modules = [
   adobeXd,
+  asana,
   figma,
   msTeams,
   notion,
