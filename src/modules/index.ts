@@ -7,6 +7,7 @@ import vscode from './vscode'
 import zoom from './zoom'
 import figma from './figma'
 import asana from './asana'
+import trello from './trello'
 
 export const modules = [
   adobeXd,
@@ -16,6 +17,7 @@ export const modules = [
   notion,
   slack,
   todoist,
+  trello,
   vscode,
   zoom,
 ]
