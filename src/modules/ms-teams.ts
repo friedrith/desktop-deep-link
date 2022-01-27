@@ -13,4 +13,5 @@ export default {
 
     return `msteams://teams.microsoft.com?tenantId=${tenantId}`
   },
+  open: () => '',
 }

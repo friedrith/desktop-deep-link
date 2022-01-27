@@ -18,4 +18,5 @@ export default {
 
     return `slack://channel?team=${teamId}${channel}`
   },
+  open: () => '',
 }

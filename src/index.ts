@@ -1,10 +1,13 @@
-import { modules } from './modules'
+import modules from './modules'
 import Module from './Module'
 
-const defaultModule = {
+export * from './modules'
+
+export const defaultModule = {
   id: '',
   match: () => true,
   transform: (uri: string): string => uri,
+  open: () => '',
 }
 
 const allModules = [...modules, defaultModule]

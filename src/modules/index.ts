@@ -8,8 +8,9 @@ import zoom from './zoom'
 import figma from './figma'
 import asana from './asana'
 import trello from './trello'
+import obsidian from './obsidian'
 
-export const modules = [
+export default [
   adobeXd,
   asana,
   figma,
@@ -20,4 +21,5 @@ export const modules = [
   trello,
   vscode,
   zoom,
+  obsidian,
 ]

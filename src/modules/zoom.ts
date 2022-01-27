@@ -15,4 +15,5 @@ export default {
 
     return `zoommtg://us04web.zoom.us/join?action=join&confno=${room}&pwd=${pwd}`
   },
+  open: () => '',
 }

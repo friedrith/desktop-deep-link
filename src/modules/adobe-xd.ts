@@ -13,4 +13,5 @@ export default {
     `adbxd://app?action=openCloudDoc&cloudURL=https%3A%2F%2Fcc-api-storage.adobe.io%2Fid%2Furn%3Aaaid%3Asc%3AEU%%3A${
       uri.match(regex)?.[1]
     }`,
+  open: () => '',
 }

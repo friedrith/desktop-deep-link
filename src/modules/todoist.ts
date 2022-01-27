@@ -8,4 +8,5 @@ export default {
   id: 'todoist',
   match: (uri: string) => Boolean(uri.match(regex)),
   transform: (uri: string) => `todoist://project?id=${uri.match(regex)?.[1]}`,
+  open: () => '',
 }
