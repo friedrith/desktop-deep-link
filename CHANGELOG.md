@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/friedrith/desktop-deep-link/compare/v1.4.2...v1.5.0) (2022-02-03)
+
+
+### Features
+
+* add figma ([f03369c](https://github.com/friedrith/desktop-deep-link/commit/f03369c5aaba554df1fb8d50e66187c0ef2c0768))
+* add obsidian ([f6e7853](https://github.com/friedrith/desktop-deep-link/commit/f6e7853fb29d260de343faab5ad4da0361f9d7b9))
+* add trello ([0356af2](https://github.com/friedrith/desktop-deep-link/commit/0356af2ce9dca833a252e5f04d76f15e2eea29f4))
+* asana ([51d1b45](https://github.com/friedrith/desktop-deep-link/commit/51d1b45cbace3191f48ece5894208e93386031b4))
+
+
+### Bug Fixes
+
+* adobexd ([87406e2](https://github.com/friedrith/desktop-deep-link/commit/87406e267bcb4bde01ef6ead7105dae3bba102d4))
+
 ### [1.4.2](https://github.com/friedrith/desktop-deep-link/compare/v1.4.1...v1.4.2) (2022-01-18)
 
 ### [1.4.1](https://github.com/friedrith/desktop-deep-link/compare/v1.4.0...v1.4.1) (2022-01-18)
