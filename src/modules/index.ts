@@ -9,6 +9,7 @@ import figma from './figma'
 import asana from './asana'
 import trello from './trello'
 import obsidian from './obsidian'
+import discord from './discord'
 
 export default [
   adobeXd,
@@ -22,4 +23,5 @@ export default [
   vscode,
   zoom,
   obsidian,
+  discord,
 ]
