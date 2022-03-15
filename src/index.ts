@@ -4,7 +4,7 @@ import Module from './Module'
 export * from './modules'
 
 export const defaultModule = {
-  id: '',
+  id: 'default',
   match: () => true,
   transform: (uri: string): string => uri,
   open: () => '',
