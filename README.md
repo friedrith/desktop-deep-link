@@ -1,6 +1,14 @@
-# desktop-deep-link
+<div align="center">
 
-A typescript library to transform URIs to deep link for a lot of desktop apps. It is useful to open desktop app directly from a browser link or another app.
+<h1>Desktop Deep Link</h1>
+
+![example workflow](https://github.com/friedrith/desktop-deep-link/actions/workflows/validate.yml/badge.svg)
+![version](https://img.shields.io/github/package-json/v/friedrith/desktop-deep-link)
+
+</div>
+
+A typescript library to transform URIs to deep links for various desktop apps like discord, zoom, etc.
+It is useful to open desktop app directly from a browser link or another app.
 
 ## Installation
 
@@ -23,11 +31,15 @@ const deepLink = createDeepLink('https://todoist.com/app/project/foo')
 Works with:
 
 - Adobe XD
+- Asana
 - Discord
+- Figma
 - Microsoft Teams
 - Notion
+- Obsidian
 - Slack
 - TodoIst
+- Trello
 - VS Code
 - Zoom
 
