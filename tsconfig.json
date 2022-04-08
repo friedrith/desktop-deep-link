@@ -2,14 +2,8 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "types": [
-      "node",
-      "jest"
-    ],
-    "lib": [
-      "ES6",
-      "DOM"
-    ],
+    "types": ["node", "jest"],
+    "lib": ["ES6", "DOM"],
     "declaration": true,
     "declarationMap": true,
     "jsx": "react-jsx",
@@ -30,13 +24,8 @@
     "allowJs": true,
     "noImplicitAny": false,
     "outDir": "./dist/tsc/",
-    "importHelpers": true,
+    "importHelpers": true
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "**/*.spec.ts"
-  ],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
